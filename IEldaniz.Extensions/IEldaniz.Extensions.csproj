@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <Authors>Eldaniz Ismayilov</Authors>
+    <Company>IEldaniz</Company>
+    <Description>There are a lot of useful extension methods</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>
