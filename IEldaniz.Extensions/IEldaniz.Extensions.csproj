@@ -5,8 +5,13 @@
     <Company>IEldaniz</Company>
     <Description>There are a lot of useful extension methods</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/EldanizIsmayilov/IEldaniz.Extensions</RepositoryUrl>
+    <Version>2.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="PDFsharp-MigraDoc-gdi" Version="1.50.5147" />
   </ItemGroup>
 </Project>

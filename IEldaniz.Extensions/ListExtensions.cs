@@ -35,7 +35,7 @@ namespace IEldaniz.Extensions
 
             return false;
         }
-            
+
 
         public static decimal Multiply<TSource>(this IEnumerable<TSource> source, Func<TSource, decimal> selector)
         {
@@ -65,5 +65,11 @@ namespace IEldaniz.Extensions
                 }
             }
         }
+
+        public static string ToStringWithComma<T>(this T[] array)
+        {
+            return string.Join(",", array);
+        }
+
     }
 }
